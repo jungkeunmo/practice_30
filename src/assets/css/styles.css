@@ -1,0 +1,45 @@
+@import "./reset.css";
+
+
+.header {
+    width: 100%;
+    height: 157.5px;
+
+    background-color: cornflowerblue;
+}
+
+.top {
+    width: 100%;
+    height: 157.5px;
+
+    background-color: palegreen;
+}
+
+.main {
+    width: 100%;
+    height: 157.5px;
+
+    background-color: palegoldenrod;
+}
+
+.bottom {
+    width: 100%;
+    height: 157.5px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom .bottom__col1 {
+    width: 45%;
+    height: 157.5px;
+
+    background-color: darkseagreen;
+}
+
+.bottom .bottom__col2 {
+    width: 65%;
+    height: 157.5px;
+
+    background-color: aqua;
+}
